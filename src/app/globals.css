@@ -1,14 +1,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --primary: #5a35f5;
+  --primary-light: #8164f4;
+
+  --white: #ffffff;
+
+  --width-sidebar-expand: 220px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 html,
 body {
@@ -30,13 +31,8 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
 }

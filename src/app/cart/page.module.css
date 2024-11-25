@@ -1,0 +1,147 @@
+.layout-cart {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.cart-products {
+    width: 65%;
+}
+
+.cart-info {
+    width: 30%;
+}
+
+.cart-table {
+    width: 100%;
+    font-family: gilroy-regular, arial;
+    color: #505050;
+}
+
+.cart-table tbody td {
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.cart-table tbody tr {
+    border-bottom: 1px solid #ebebeb;
+    height: 94px;
+    display: table-row;
+}
+
+.cart-table thead {
+    background-color: #e8e8e8;
+    color: #7e7e7e;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid #f0f0f0;
+}
+
+.cart-table thead tr {
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: center;
+    text-decoration: none;
+}
+
+.cart-table thead th {
+    padding: 7px 10px;
+    vertical-align: middle;
+}
+
+.cart-table tbody img {
+    width: 100px;
+    height: auto;
+}
+
+.cart-info {
+    border: 1px solid black;
+}
+
+.cart-info-cupon {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.cart-info-cupon span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cart-info-cupon input {
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.btn-aplicar {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid var(--primary);
+    background-color: var(--white);
+    border-radius: 20px;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.cart-info-cupon .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-info-amount {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.table-amount {
+    width: 70%;
+}
+
+.table-amount tbody td:first-child {
+    padding: 10px;
+    font-weight: 600;
+}
+
+.cart-info-actions {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cart-info .cart-info-actions button {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: var(--white);
+    max-width: 272px;
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+.layout-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}

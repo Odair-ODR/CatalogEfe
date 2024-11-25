@@ -1,0 +1,112 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(31,31,31,.8);
+}
+
+.modal-content {
+    position: absolute;
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    height: max-content;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--white);
+}
+
+.modal-header {
+    padding: 10px;
+    text-align: center;
+    position: relative;;
+}
+
+.modal-header h2 {
+    color: teal;
+    font-size: 1.5rem;
+}
+
+.modal-header .icon-container {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.modal-header .icon-container svg {
+    fill: black;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.custom-table {
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.custom-table tbody td {
+    padding: 10px;
+}
+
+.custom-table tbody img {
+    width: 100px;
+    height: 100px;
+}
+
+.input-container {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 10px;
+    max-width: 120px;
+}
+
+.input-container input {
+    text-align: center;
+    width: 50px;
+    border: none;
+}
+
+.input-container label {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.modal-footer {
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.modal-footer .btn-next {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: var(--primary);
+    max-width: 272px;
+    cursor: pointer;
+}
+
+.modal-footer .btn-cart {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: var(--white);
+    max-width: 272px;
+    background-color: var(--primary);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
